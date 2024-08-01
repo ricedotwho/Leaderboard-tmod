@@ -1,0 +1,62 @@
+Keybinds: {
+	"Open Menu.DisplayName": Open Menu
+	OpenMenu.DisplayName: Open Menu
+}
+
+Configs: {
+	dethCounterConfig: {
+		DisplayName: Mod Config
+
+		spawnReduceBy: {
+			Label: Mod Respawn Reduction
+			Tooltip: How much your installed Shorter respawn mod shortens the respawn from vanilla time
+		}
+
+		spawnReduceByBoss: {
+			Label: Mod Boss Respawn Reduction
+			Tooltip: How much your installed Shorter respawn mod shortens the respawn from the vanilla time
+		}
+
+		cannotChangeConfigOnServer: {
+			Label: Stop players from changing config on a Server
+			Tooltip: Works with Dedicated and Host & Play
+		}
+
+		respawnSet: {
+			Label: Set Respawn Time
+			Tooltip: Set Respawn Time
+		}
+
+		respawnSetBoss: {
+			Label: Set Respawn Time during boss
+			Tooltip: Set Respawn Time during boss fight
+		}
+
+		saveWorldSide: {
+			Label: Save data world side
+			Tooltip: Saves data inside the world file instead of the player file
+		}
+
+		enableShorterRespawn: {
+			Label: Enable Shorter Respawn times
+			Tooltip: Enable shorter respawn times
+		}
+
+		updateTime: {
+			Label: Time between data updates on servers
+			Tooltip: Low times may cause lag on lower end servers
+		}
+
+		leaderboardShowNum: {
+			Label: The max places to show in the leaderboard UI
+			Tooltip: This is a kind of useless config unless you wanna break the UI with over 15 players
+		}
+
+		Headers: {
+			ShorterRespawn: Shorter Respawn
+			Server: Server
+			DataConfig: Data Config
+			LeaderboardDisplaySetting: Leaderboard Display Settings
+		}
+	}
+}

@@ -1,0 +1,12 @@
+Adds a leaderboard, Displays stats like kills, deaths, playtime etc.
+
+Open the UI by binding a key (Default "P")
+
+Type "/lb help" for help
+
+
+Changelog:
+v0.1.1
+-Added a commands: "/lb totaldeaths", "/lb timedead"
+-Fixed UI bugging out when a player disconnects
+-Fixed playtime UI being absolutely broken (hopefully)
