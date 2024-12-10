@@ -378,7 +378,7 @@ namespace dethCounter
                     dethCounterPlayer modPlayer = Main.player[player].GetModPlayer<dethCounterPlayer>();
                     // Check the variable 
                     // kills = 0. killsNoS = 1. deaths = 2. playtime = 3. deathsBoss = 4. timeDead = 5
-                    infoDict.Add(player, new int[] { modPlayer.killCount, modPlayer.killCountNoStatue, modPlayer.deathCount, modPlayer.playTimeSeconds, modPlayer.deathCountBoss, modPlayer.deathTime });
+                    infoDict.Add(player, [modPlayer.killCount, modPlayer.killCountNoStatue, modPlayer.deathCount, modPlayer.playTimeSeconds, modPlayer.deathCountBoss, modPlayer.deathTime]);
                 }
             }
 
@@ -424,7 +424,7 @@ namespace dethCounter
                     // Kill / Death
                     else if (type2 == "k/d")
                     {
-                        replyText += Math.Round(((double)de.Value[0] / (double)de.Value[2]), 1).ToString();
+                        replyText += Math.Round(de.Value[0] / (double)de.Value[2], 1).ToString();
                         if (++x < y)
                             replyText += "\n";
                     }
@@ -463,7 +463,7 @@ namespace dethCounter
                     // Kill / Death Statue
                     else if (type2 == "k/dStatue")
                     {
-                        replyText += Math.Round(((double)de.Value[1] / (double)de.Value[2]), 1).ToString();
+                        replyText += Math.Round(de.Value[1] / (double)de.Value[2], 1).ToString();
                         if (++x < y)
                             replyText += "\n";
                     }

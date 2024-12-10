@@ -104,6 +104,4 @@ namespace dethCounter
         UpdateData,
         SendClientPacket,
     }
-
 }
-
